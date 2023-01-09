@@ -48,6 +48,18 @@ public class Account {
     public int getAge(){
         return this.age;
     }
+    public String getSureName(){
+        return this.sureName;
+    }
+    public int getWeight(){
+        return this.weight;
+    }
+    public int getPressure(){
+        return this.pressure;
+    }
+    public int getStepsByDay(){
+        return this.stepsByDay;
+    }
     public void setSureName(String sureName){
         this.sureName = sureName;
     }
